@@ -21,7 +21,7 @@ class carnivores extends Animal1{
     }
 }
 
-class Animal {
+  public class Animal {
     public static void main(String[] args) {
         Animal1 A= new Animal1();
         Animal1 h= new herbivores();
