@@ -1,6 +1,5 @@
-
-
-class Animal{
+class Animal
+{
     void eat(){
         System.out.println("Animals Eat");
     }
@@ -12,24 +11,25 @@ class herbivores extends Animal{
 }
 class omnivores extends Animal{
     void eat(){
-        System.out.println("Omnivores Eat Plants and meat");
+        System.out.println("Omnivores Eat plants and meat");
     }
+
 }
 class carnivores extends Animal{
     void eat(){
-        System.out.println("Carnivores Eat meat");
+        System.out.println("Carnivores Eat Meat");
     }
 }
-class main{
-    public static void main(String args[]){
-        Animal A = new Animal();
-        Animal h = new herbivores();
-        Animal o = new omnivores();
-        Animal c = new carnivores();
+
+class Animal1 {
+    public static void main(String[] args) {
+        Animal A= new Animal();
+        Animal h= new herbivores();
+        Animal o= new omnivores();
+        Animal c= new carnivores();
         A.eat();
         h.eat();
         o.eat();
         c.eat();
-
     }
 }
