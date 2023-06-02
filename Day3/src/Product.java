@@ -16,7 +16,7 @@ public class Product {
     public static void main(String[] args) {
         Product p=new Product();
         p.setPrice(10);
-//
+
        double Singlequantity = p.getPrice();
         System.out.println(Singlequantity);
 
