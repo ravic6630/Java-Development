@@ -1,3 +1,5 @@
+package com.week1.day1;
+
 class Dog extends Animal {
     void bark(){
         System.out.println("Barking..");

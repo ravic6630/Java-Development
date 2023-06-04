@@ -1,8 +1,10 @@
+package com.week1.day2;
+
 abstract class Department {
     public abstract int getDepartmentSize();
 }
 
-class SubDepartment extends Department {
+ class SubDepartment extends Department {
     private int departmentSize;
 
     public SubDepartment(int departmentSize) {

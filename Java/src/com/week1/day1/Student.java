@@ -1,3 +1,5 @@
+package com.week1.day1;
+
 public class Student {
     private String name; // state variable
 

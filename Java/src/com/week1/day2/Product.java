@@ -1,3 +1,5 @@
+package com.week1.day2;
+
 public class Product {
     private double price;
 
