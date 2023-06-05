@@ -12,11 +12,11 @@ class Child extends Parent{
 
     protected int var2;
 
-    public Child(int var1, int var2){
+    Child(int var1, int var2){
         super(var1);
         this.var2 =var2;
     }
-    public Child(int var2){
+    Child(int var2){
         super(0);
         this.var2=var2;
 
