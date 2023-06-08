@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5798b69-98b3-427c-a903-4da46cf4a29c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/Day1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/src/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/src/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +27,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/Users/ravichandrareddy/Desktop/Java-Development",
