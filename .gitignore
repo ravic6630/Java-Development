@@ -2,6 +2,11 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+<<<<<<< HEAD
+=======
+.idea/
+java.iml
+>>>>>>> 986d4d57846a55fa670ffe954abd5accc33dedcd
 
 ### Eclipse ###
 .apt_generated
@@ -26,6 +31,7 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 /JavaNew1.iml
 /out/
@@ -33,3 +39,6 @@ bin/
 .idea/
 .DS_Store
 /.idea/
+=======
+.DS_Store
+>>>>>>> 986d4d57846a55fa670ffe954abd5accc33dedcd
