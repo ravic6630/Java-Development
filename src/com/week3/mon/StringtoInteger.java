@@ -16,7 +16,7 @@ public class StringtoInteger {
         System.out.println(convertToInteger("23"));
         Integer k=convertToInteger("test");
         Integer l=convertToInteger("123f");
-        Integer m =convertToInteger("null");
+        Integer m =convertToInteger("46.57");
 
 /*        if(m!=null){
             System.out.println(m);
