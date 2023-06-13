@@ -18,15 +18,7 @@ public class StringtoInteger {
         Integer l=convertToInteger("123f");
         Integer m =convertToInteger("46.57");
 
-/*        if(m!=null){
-            System.out.println(m);
-        }
-        if(k!=null){
-            System.out.println(k);
-        }
-        if(l!=null){
-            System.out.println(l);
-        }*/
+
 
     }
 }
