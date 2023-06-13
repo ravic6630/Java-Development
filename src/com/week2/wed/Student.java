@@ -7,10 +7,12 @@ import java.io.IOException;
 public class Student implements Comparable<Student> {
     private String firstName;
     private String lastName;
+//    private String gpa;
 
     public Student(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+//        this.gpa=gpa;
     }
 
     @Override
@@ -23,6 +25,7 @@ public class Student implements Comparable<Student> {
         return "Student{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+//                ", gpa='" + gpa + '\'' +
                 '}';
     }
 
