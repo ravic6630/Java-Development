@@ -8,7 +8,7 @@ public class Main {
         for (int i = 0; i < 10; i++)
             names.add("Tree" + i);
         //StringTraverse
-         StringTraverse.stringTraverse(names);
+        StringTraverse.stringTraverse(names);
          //RemoveLastElement
         RemoveLastElement.removeLastElement(names);
         //RemoveLessThanAvg
