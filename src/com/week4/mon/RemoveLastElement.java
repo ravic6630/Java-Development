@@ -8,6 +8,6 @@ public class RemoveLastElement {
         if (!input.isEmpty()) {
             input.remove(input.size() - 1);
         }
-        System.out.println("\nUpdated Array List after removing last element : " + input);
+        System.out.println("\nUpdated AL after removing last element : " + input);
     }
 }

@@ -19,7 +19,7 @@ public class RemoveLessThanAvg {
 
         double average = sum / students.size();
 
-        System.out.println("\nAll students\n" + students);
+        System.out.println("All students" + students);
 
         Iterator<Student> iterator = students.iterator();
         while (iterator.hasNext()) {
@@ -28,7 +28,7 @@ public class RemoveLessThanAvg {
                 iterator.remove();
             }
         }
-        System.out.println("Student with above Average GPA\n");
+        System.out.println("Student with above Average GPA");
         for (Student student : students) {
             System.out.println(student);
         }
