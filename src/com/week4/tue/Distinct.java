@@ -26,3 +26,50 @@ public class Distinct {
         }
     }
 }
+
+// HashMap
+// LinkedHashMap
+// TreeMap
+
+// HashSet
+// LinkedHashSet
+// TreeSet
+
+// ordered
+// sorted
+// threadsafe
+// unique
+// null
+
+// ArrayList
+// LInkedList
+// Vector
+
+// Queue
+
+// PriorityQueue
+// Dequeue
+// LinkedList
+
+
+
+//hashMap.put("name","Sanjeev");
+/*
+hashMap.put("name","someName");
+hashMap.get("name");
+
+hashMap.keySet();
+
+HashSet ->
+
+hashSet.add("oneValue");
+hashSet.add("oneValue1");
+hashSet.add("oneValue2");
+
+*/
+
+// "PRESENT"
+//    hashMap.put("oneValue","PRESENT");
+//    hashMap.put("oneValue2","PRESENT");
+//    hashMap.put("oneValue3","PRESENT");
+
