@@ -1,4 +1,4 @@
-package com.java8.wed;
+package com.java8.features;
 
 import java.time.LocalDate;
 import java.time.Period;
