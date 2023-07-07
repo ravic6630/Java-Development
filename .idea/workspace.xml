@@ -5,7 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5798b69-98b3-427c-a903-4da46cf4a29c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaNew1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvn-proj/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvn-proj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvn-proj/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day1/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day1/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day1/Main1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day1/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day2/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day2/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day2/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day3/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day3/Final.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day3/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week1/day3/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Tue/Find.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Tue/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Tue/Rotate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Tue/Screenshots/Find.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Tue/Screenshots/Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Tue/Screenshots/Rotate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/Wed/Vowels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Age.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Fizzbuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Screenshot/Age.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Screenshot/Fibanocci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Screenshot/FizzBuzz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/com/week2/mon/Screenshot/Reversed.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
