@@ -11,5 +11,5 @@ public interface SubmissionRepository {
     List<SubmissionDTO> getAll();
     SubmissionDTO addSubmission(SubmissionDTO submission);
     SubmissionDTO updateSubmission(SubmissionDTO submission);
-    SubmissionDTO deleteSubmission(String id);
+    boolean deleteSubmission(String id);
 }

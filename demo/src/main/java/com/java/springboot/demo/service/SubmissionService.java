@@ -11,7 +11,7 @@ public interface SubmissionService {
 
     SubmissionDTO updateSubmission(SubmissionDTO submission);
 
-    SubmissionDTO deleteSubmission(String id);
+    boolean deleteSubmission(String id);
 
     List<SubmissionDTO> getAll();
 }

@@ -35,7 +35,7 @@ public class SubmissionServiceImp implements SubmissionService {
     }
 
     @Override
-    public SubmissionDTO deleteSubmission(String id) {
+    public boolean deleteSubmission(String id) {
         return submissionRepository.deleteSubmission(id);
     }
 
