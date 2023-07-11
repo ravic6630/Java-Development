@@ -10,10 +10,10 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 
 public class SubmissionRepoTest {
-    static SubmissionRepoClass sRep;
+    static SubmissionRepoClass submission;
     @BeforeAll
     public static void init(){
-        sRep= new SubmissionRepoClass();
+        submission= new SubmissionRepoClass();
     }
 
 
@@ -24,10 +24,10 @@ public class SubmissionRepoTest {
         Class<?> myClass = SubmissionRepoClass.class;
         Field privateField = myClass.getDeclaredField("submissions");
         privateField.setAccessible(true);
-        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(sRep);
+        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(submission);
         int size=hm.size();
 
-        SubmissionDTO result = sRep.addSubmission(dto);
+        SubmissionDTO result = submission.addSubmission(dto);
 
         Assertions.assertNotNull(result);
         Assertions.assertEquals("Ravi",result.getSalesPersonName());
@@ -41,13 +41,13 @@ public class SubmissionRepoTest {
         Class<?> myClass = SubmissionRepoClass.class;
         Field privateField = myClass.getDeclaredField("submissions");
         privateField.setAccessible(true);
-        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(sRep);
+        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(submission);
         hm.put("id-1",dto);
         SubmissionDTO dto1= getSubmission("25-1-2023","Ravi","java","Srihari","Srihari");
         dto1.setId("id-1");
-        SubmissionDTO result = sRep.updateSubmission(dto1);
+        SubmissionDTO result = submission.updateSubmission(dto1);
 
-        //check whether the vendorname updated from  uday to srihari
+        //check whether the vendorname updated
 
         Assertions.assertEquals("Srihari",hm.get("id-1").getVendorName());
 
@@ -61,10 +61,10 @@ public class SubmissionRepoTest {
         Class<?> myClass = SubmissionRepoClass.class;
         Field privateField = myClass.getDeclaredField("submissions");
         privateField.setAccessible(true);
-        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(sRep);
+        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(submission);
         hm.put("id-1",dto);
 
-        boolean result= sRep.deleteSubmission("Srihari");
+        boolean result= submission.deleteSubmission("Srihari");
 
         Assertions.assertTrue(result);
         Assertions.assertEquals(0,hm.size());
@@ -76,10 +76,10 @@ public class SubmissionRepoTest {
         Class<?> myClass = SubmissionRepoClass.class;
         Field privateField = myClass.getDeclaredField("submissions");
         privateField.setAccessible(true);
-        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(sRep);
+        HashMap<String,SubmissionDTO> hm = (HashMap<String, SubmissionDTO>) privateField.get(submission);
         hm.put("id-1",dto);
 
-        SubmissionDTO result=sRep.getSubmission("id-1");
+        SubmissionDTO result=submission.getSubmission("id-1");
         Assertions.assertEquals("Ravi",result.getSalesPersonName());
     }
 
